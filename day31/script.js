@@ -1,27 +1,21 @@
     // How to create an object
     // How print the value of an object
+    // adding a constractor
 
-    var Student()
+    function Student(name,age,cgpa,lang){
+        this.name = name,
+        this.age = age,
+        this.cgpa = cgpa,
+        this.lang = lang
+    }
+    var student1 = new Student("Nimai Roy", 26, 3.25, ["Bangla","English","Hindi"]);
+    var student2 = new Student("Tithe", 23, 2.53, ["Bangla","English","Urdu"]);
+    console.log(student1.name);
+    console.log(student1.age);
+    console.log(student1.cgpa);
+    console.log(student1.lang);
+    console.log(student2.name);
+    console.log(student2.age);
+    console.log(student2.cgpa);
+    console.log(student2.lang);
 
-
-
-  var student1 ={
-    name: "Nimai",
-    age: 25,
-    cgpa: 3.25,
-    lang: ["Bangla", "English", "Hindi"]
-  }
-  var student2 ={
-    name: "Anis",
-    age: 26,
-    cgpa: 2.25,
-    lang: ["Arbi", "Urdu", "Hindi"]
-  }
-  var student3 ={
-    name: "Motu",
-    age: 27,
-    cgpa: 1.25,
-    lang: ["Farshi", "Tamil", "Franch"]
-  }
-
-console.log(student2.name);
