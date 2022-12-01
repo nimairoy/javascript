@@ -1,0 +1,13 @@
+.box{
+    width: 250px;
+    background: tomato;
+    margin: 50px auto;
+    padding: 15px;
+}
+.box p{
+    font-size: 18px;
+}
+.addStyle{
+    transform: scale(1.1);
+    cursor: pointer;
+}
