@@ -1,0 +1,14 @@
+#myDiv{
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    background: tomato;
+    padding: 40px;
+}
+.btn{
+    padding: 8px 15px;
+    background: #05b191aa;
+    color: #ffff;
+    border:none;
+    cursor: pointer;
+}
