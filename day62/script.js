@@ -13,7 +13,7 @@ button.addEventListener("click", function(){
             throw 'The input is too less';
         }else if(input>10){
             throw 'the input is too large';
-        }
+        } 
     } catch (error) {
         p.textContent = error;
     }

@@ -1,0 +1,13 @@
+.box{
+    width: 300px;
+    height: 200px;
+    background: tomato;
+    padding: 40px;
+    margin: 30px auto;
+}
+button{
+    cursor: pointer;
+}
+p{
+    font-size: 18px;
+}
